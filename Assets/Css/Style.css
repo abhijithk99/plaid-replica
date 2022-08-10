@@ -45,6 +45,7 @@ margin-left: 25px;
 }
 .header-hero-video video{
     margin-top: 98px;
+    margin-left: -450px;
 }
 .header-content{
     margin: 11em 5.5em;
@@ -76,4 +77,109 @@ margin-left: 25px;
 .header-content-2 a{
     color: black;
     text-decoration: underline;
+}
+.client-area{
+    background-color: black;
+}
+.client-logo{
+    margin-left: 105px;
+    padding:80px 0;
+}
+.client-logo-img{
+    width: 190px;
+    height: 89px;
+}
+.client-logo p{
+    margin-top: 40px;
+    line-height: 1.5;
+    color: #ffff;
+    max-width: 40vw;
+}
+.btn-clients
+{
+    border: 1.5px solid #ffff;
+    margin-top: 20px;
+}
+.how-it-works-top{
+    display: flex;
+    align-items: center;
+}
+.how-it-work-content a{
+    text-decoration: none;
+    color: black;
+}
+.how-it-works-right{
+    height: 60vh;
+    width: 65vw;
+    background-image: url(/Assets/Img/homepage-howitworks-brushstroke-right.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+}
+.code-snippet{
+    display: flex;
+    justify-content:center;
+}
+.code-snippet-img{
+    margin-top: 40px;
+}
+.user-experience{
+    height: 90vh;
+    width: 60vw;
+    background-image: url(/Assets/Img/homepage-howitworks-brushstroke-left.webp);
+    background-repeat: no-repeat;
+    background-size: 50vw 75vh;
+    background-position: left bottom;
+    padding: 60px 0;
+}
+.financial-services{
+    padding-top: 150px;
+}
+.services-heading h1{
+    margin-bottom: 1.8em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.grid-container{
+    display: flex;
+    margin: 30px;
+}
+.grid-image img{
+    height: 110px;
+    width: 110px;
+}
+.grid-content{
+    max-width: 300px;
+}
+.grid-content a{
+    text-decoration: none;
+    color: black;
+}
+.fin-inst-content{
+    margin-left: 70px;
+    width: 30vw;
+}
+.footer-area{
+    padding: 100px 0;
+    background-color: black;
+    color: #ffff;
+    font-size: 14px;
+}
+.footer-top{
+    margin: 100px 0;
+}
+.footer-area li{
+    margin-top: 12px;
+}
+.footer-area a{
+    color: #ffff;
+    text-decoration: none;
+}
+.btn-3{
+    background-color: #ffff;
+    color: black;
+    border: 1.5px solid #ffff;
+}.footer-right{
+    display: block;
 }
