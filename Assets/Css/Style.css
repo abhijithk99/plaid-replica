@@ -48,7 +48,7 @@ margin-left: 25px;
     margin-left: -450px;
 }
 .header-content{
-    margin: 11em 5.5em;
+    margin: 180px 90px;
 }
 .header-content h1{
     font-weight: 400;
@@ -93,7 +93,7 @@ margin-left: 25px;
     margin-top: 40px;
     line-height: 1.5;
     color: #ffff;
-    max-width: 40vw;
+  
 }
 .btn-clients
 {
@@ -158,7 +158,6 @@ margin-left: 25px;
 }
 .fin-inst-content{
     margin-left: 70px;
-    width: 30vw;
 }
 .footer-area{
     padding: 100px 0;
@@ -182,4 +181,29 @@ margin-left: 25px;
     border: 1.5px solid #ffff;
 }.footer-right{
     display: block;
+}
+.dropdown-menu2{
+    background-color: black;
+}
+@media (max-width:768px){
+    .header-hero-video{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .header-hero-img{
+        display: block;
+        margin-top: 100px;
+    }
+}
+@media (max-width:768px){
+    .header-content {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .user-experience  {
+        display: none;
+    }
 }
