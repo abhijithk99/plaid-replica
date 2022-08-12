@@ -47,8 +47,14 @@ margin-left: 25px;
     margin-top: 98px;
     margin-left: -450px;
 }
+.header-right{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
 .header-content{
-    margin: 180px 90px;
+
 }
 .header-content h1{
     font-weight: 400;
