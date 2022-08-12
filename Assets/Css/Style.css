@@ -99,6 +99,7 @@ margin-left: 25px;
     color: #ffff;
   
 }
+
 .btn-clients
 {
     border: 1.5px solid #ffff;
@@ -124,6 +125,17 @@ margin-left: 25px;
 .code-snippet{
     display: flex;
     justify-content:center;
+    color: #ffff;
+    overflow: scroll;
+    margin-top: 80px;
+    margin-right: 0px;
+    width: auto;
+    padding: 20px;
+    
+}
+.asdf{
+    overflow-x: hidden;
+    background-color: black;
 }
 .code-snippet-img{
     margin-top: 40px;
