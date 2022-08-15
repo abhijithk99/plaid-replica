@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
 body{
     overflow-x: hidden;
 }
@@ -5,10 +6,13 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 img{
     max-width: 100%;
+}
+ul.dropdown-menu.show{
+    width: 600px !important; 
 }
 ul{
     margin: 0;
@@ -42,6 +46,16 @@ margin-left: 25px;
     background: none;
     border: 1.5px solid;
     width: 180px;
+    height: 50px;
+    
+}
+.btn-hover{
+    transition: all 0.2s linear;
+}
+.btn-hover:hover{
+
+    border: 1.5px solid green;
+    color: green;
 }
 .header-hero-video video{
     margin-top: 98px;
@@ -126,7 +140,6 @@ margin-left: 25px;
     display: flex;
     justify-content:center;
     color: #ffff;
-    overflow: scroll;
     margin-top: 80px;
     margin-right: 0px;
     width: auto;
@@ -173,7 +186,7 @@ margin-left: 25px;
     color: black;
 }
 .fin-inst-content{
-    margin-left: 70px;
+    margin-left: auto;
 }
 .footer-area{
     padding: 100px 0;
