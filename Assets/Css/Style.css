@@ -217,6 +217,9 @@ margin-left: 25px;
 .grid-content h4{
     margin-bottom: 1.3rem;
 }
+.grid-image{
+    margin-bottom: 1.3rem;
+}
 @media (max-width:768px){
     .header-hero-video{
         display: none;
