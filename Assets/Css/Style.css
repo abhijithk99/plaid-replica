@@ -46,17 +46,9 @@ margin-left: 25px;
     background: none;
     border: 1.5px solid;
     width: 180px;
-    height: 50px;
-    
+    height: 50px; 
 }
-.btn-hover{
-    transition: all 0.2s linear;
-}
-.btn-hover:hover{
 
-    border: 1.5px solid green;
-    color: green;
-}
 .header-hero-video video{
     margin-top: 98px;
     margin-left: -450px;
@@ -188,6 +180,10 @@ margin-left: 25px;
 .fin-inst-content{
     margin-left: auto;
 }
+.fin-inst-content a{
+    text-decoration: none;
+    color: black;
+}
 .footer-area{
     padding: 100px 0;
     background-color: black;
@@ -220,6 +216,91 @@ margin-left: 25px;
 .grid-image{
     margin-bottom: 1.3rem;
 }
+
+.btn2{
+    border: none;
+    background-color: black;
+    color: #ffff;
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+}
+.button {
+
+   
+    transition: all 0.5s;
+    cursor: pointer;
+    
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover{
+    background-color: hsl(170, 81%, 34%);
+    color: #ffff;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+  .linkhov {
+
+   
+    transition: all 0.5s;
+    cursor: pointer;
+    
+    
+  }
+  
+  .linkhov span {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .linkhov span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .linkhov:hover{
+    color: #6e6ee0;
+  }
+  .linkhov:hover span {
+    padding-right: 25px;
+  }
+  
+  .linkhov:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 @media (max-width:768px){
     .header-hero-video{
         display: none;
