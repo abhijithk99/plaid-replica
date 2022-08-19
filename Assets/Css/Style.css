@@ -404,6 +404,12 @@ margin-left: 25px;
         display: none;
     }
 }
+@media (max-width:768px){
+    *{
+        overflow-x: hidden;
+    }
+}
+
 
 @media (max-width:768px){
     .container1{
